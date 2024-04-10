@@ -47,9 +47,9 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           file: 'Dockerfile'
-          platforms: linux/amd64
+          platforms: linux/arm64
           context: ./
           push: true
           tags: |
-            yangchuansheng/ip_derper:latest
-            ghcr.io/yangchuansheng/ip_derper:latest
+           # qqianye/ip_derper:latest
+            ghcr.io/qqianye/ip_derper:latest
