@@ -46,4 +46,4 @@ jobs:
           push: true
           tags: |
            # qqianye/ip_derper:latest
-            ghcr.io/qqianye/ip_derper:latest
+            ghcr.io/CyanTailwinds/ip_derper:latest
