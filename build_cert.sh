@@ -3,7 +3,7 @@
 CERT_HOST=$1
 CERT_DIR=$2
 CONF_FILE=$3
-
+touch $CONF_FILE
 echo "[req]
 default_bits  = 2048
 distinguished_name = req_distinguished_name
