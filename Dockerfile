@@ -29,7 +29,7 @@ COPY build_cert.sh /app/
 COPY --from=builder /app/derper /app/derper
 
 # build self-signed certs && start derper
-CMD bash /app/build_cert.sh $DERP_HOST $DERP_CERTS /app/san.conf && \
+CMD bash /app/build_cert.sh $DERP_HOST $DERP_CERTS && \
     /app/derper --hostname=127.0.0.1 \
     --certmode=manual \
     --certdir=$DERP_CERTS \
