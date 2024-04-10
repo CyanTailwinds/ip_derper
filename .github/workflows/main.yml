@@ -1,4 +1,4 @@
-name: Disable Checking ServerName
+name: Rebuild and Push Image
 
 on:
   workflow_dispatch:
