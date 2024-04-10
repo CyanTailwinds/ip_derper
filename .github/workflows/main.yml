@@ -44,4 +44,4 @@ jobs:
           platforms: linux/arm64
           context: ./
           push: true
-          tags: ghcr.io/CyanTailwinds/ip_derper:latest
+          tags: ghcr.io/cyantailwinds/ip_derper:latest
